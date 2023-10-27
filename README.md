@@ -32,7 +32,7 @@
 1. Clone `helm-chart-hooks-example` GitHub repository by running the following command:
 
    ```
-   git clone https://github.com/sagar-jadhav/helm-chart-hooks-example.git
+   git clone https://github.com/fallewi/helm-chart-hooks-example.git
    ```
 
 2. Move to `helm-chart-hooks-example` directory by running the following command:
