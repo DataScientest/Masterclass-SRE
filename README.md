@@ -1,4 +1,4 @@
-# Example to demonstrate How Helm Chart Hooks works
+# SRE DATASCIENTEST DEMO Helm Chart Hooks 
 
 ## What is a Helm Chart Hooks?
 
