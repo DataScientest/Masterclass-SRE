@@ -1,5 +1,4 @@
-# SRE DATASCIENTEST DEMO Helm Chart Hooks 
-
+# SRE DATASCIENTEST DEMO Helm Chart Hooks
 ## What is a Helm Chart Hooks?
 
 1. Using hooks chart developers can either execute logic or create Kubernetes objects at a certain point in the release life cycle.  
@@ -7,15 +6,12 @@
 3. Hooks are like any other template like Pod, Deployment, etc. Helm identifies between a Hook and any other template using `helm.sh/hook` annotation.
 
 ## Types of Hooks
-
 ![Types of Hooks](./images/types_of_hooks.png)
 
 ## Hooks Deletion Policies
-
 ![Hooks Deletion Policies](./images/hook_deletion_policies.png)
 
 ## Hooks Execution Order
-
 ![Hooks Execution Order](./images/hooks_execution_order.png)
 
 ## How are Hooks considered to be ready?
@@ -24,25 +20,20 @@
 2. If hooks are any other Kubernetes objects other than Pods and Jobs, then hooks become ready as soon as those objects are loaded or updated.
 
 ## Example
-
 ![Example](./images/demo.png)
 
 ### Prerequisite
-
 1. Clone `helm-chart-hooks-example` GitHub repository by running the following command:
-
    ```
    git clone https://github.com/fallewi/helm-chart-hooks-example.git
    ```
 
 2. Move to `helm-chart-hooks-example` directory by running the following command:
-
    ```
    cd ./helm-chart-hooks-example
    ```
 
 3. log in to [Docker Hub](https://hub.docker.com/) by running the following command:
-
    ```
    docker login -u <Username>
    ```
@@ -271,7 +262,6 @@
    - `<MySQL Pod Name>` is the MySQL Pod name, You can get the MySQL Pod name using `kubectl get po -n mysql` command.
   
 7. Delete the MySQL application by running the following command:
-
    ```
    helm uninstall mysql
    ```
@@ -279,5 +269,4 @@
    Wait for some time for the command to get executed successfully.
 
    DEMO FOR MC SRE DATASCIENTEST
-
    FALL LEWIS
